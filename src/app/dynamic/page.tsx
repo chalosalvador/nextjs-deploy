@@ -1,6 +1,7 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
+export const dynamic = 'force-dynamic'
 export default function Home() {
   return (
     <div className={styles.page}>
